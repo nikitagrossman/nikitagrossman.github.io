@@ -151,8 +151,6 @@ document.addEventListener('DOMContentLoaded', async () => {
       $(`#toggleSwitch${coinToAdd}`).trigger('click');
     }, 50);
     coinToSwitch = [];
-    await updateChart();
-    chart.update();
     $('.modal').modal('hide');
   });
 });
